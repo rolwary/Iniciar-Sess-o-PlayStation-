@@ -1,0 +1,145 @@
+html{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    font-family:larendon Bold;
+    background-image: url(imagens/astro-bot-rescue-mission-wallpaper-06-en-us-06jul20.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.caixa{
+    position:absolute;
+    right: 10%;;
+    width: 480px;
+    height: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(#1C1C1C,transparent,#1C1C1C,transparent);
+    box-shadow: 0px 0px 5px #0000FF,
+                0px 0px 25px #0000FF,
+                0px 0px 75px #0000CD,
+                0px 0px 100px #0000CD;
+}
+ .titulo h2{
+    color:#F8F8FF;
+    padding: 13px 10px;
+    margin: 10px 15px;
+    position: relative;
+    right: 130%;
+    letter-spacing:3px;
+}
+.titulo h3{
+    color:#F8F8FF;
+    text-align: center;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+   
+.login{
+   position: relative;
+   margin-bottom: 20px;
+   box-sizing: border-box;
+   padding: 10px;
+}
+label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+input:focus + label, input:not(:placeholder-shown) + label {
+    top: -12px;
+    font-size: 12px;
+}
+.login input{
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+    background:#F8F8FF;
+    height: 35px;
+}
+.sessão {
+    text-align: center; 
+    padding: 13px 10px ;
+}
+.iniciar a{
+    color: #F8F8FF;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.iniciar a:hover{
+   border-radius: 10px;
+   background: transparent;
+   box-sizing: border-box;
+   box-shadow: 0px 0px 5px #0000CD,
+               0px 0px 25px #0000CD,
+               0px 0px 75px #0000FF,
+               0px 0px 100px #0000FF;
+
+}
+.link{
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.link-A{
+    margin: 5px;
+    padding: 5px;
+    height: -10px;
+}
+.link-B {
+    margin: 20px;
+    padding: 10px 5px;
+}
+.link-A a{
+    color:#00BFFF;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+.link-A a:hover{
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #4682B4,
+                0px 0px 25px #4682B4,
+                0px 0px 75px #0f80dd,
+                0px 0px 100px #0f80dd;
+    
+}
+.link-B a{
+    color:#00BFFF;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+.link-B a:hover{
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #4682B4,
+                0px 0px 25px #4682B4,
+                0px 0px 75px #0f80dd,
+                0px 0px 100px #0f80dd;
+}
+.submit{
+    border: solid 1px #F8F8FF;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 13px 10px;
+    text-align: center;
+    background: #F8F8FF;
+}
+.submit a{
+    color:#000000;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.submit:hover{
+    border: solid 1px #000000;
+    border-radius: 20px;
+}
+.submit a:hover{
+    color: #00BFFF;
+
+}
